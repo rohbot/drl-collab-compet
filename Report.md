@@ -52,9 +52,11 @@ Compared to other policy gradient methods, PPO has a unique objective function t
 
 ## Results
 
-The agent can achieve an average score of 0.5 over 100 episodes after 167 episodes
+The agent can achieve an average score of 0.5 over 100 episodes after 163 episodes
 
-![Plot of Rewards](data/images/ppo-training.png)
+![Plot of Rewards](data/images/training_163.png)
+
+![Average](data/images/average_163.png)
 
 
 ## Ideas for Future Work
