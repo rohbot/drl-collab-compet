@@ -51,7 +51,7 @@ Initally the hyperparameters were set to the same values as the training code in
 
 However after over 1000 episodes with these hyperparameters, the average score over 100 episodes was still well below +0.5.
 
-More research was done into tunning hyperparamter for PPO and using some guideline listed in the Unity ML agent docs, [Training with Proximal Policy Optimization]](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-PPO.md) 
+More research was done into tunning hyperparamter for PPO and using some guideline listed in the Unity ML agent docs, [Training with Proximal Policy Optimization](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-PPO.md) 
 
 First of all the learning rate was reduced to 1e-4 to allow to smaller gradient updates and the Mini-batch size was increased to 200 and BUFFER_SIZE set to 2000 (10 times the mini-batch size). 
 
