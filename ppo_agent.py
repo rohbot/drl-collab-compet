@@ -15,8 +15,8 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 class Agent():
 	"""Interacts with and learns from the environment."""
 	
-	def __init__(self, env, hidden_size=512, lr=3e-4, gamma=0.99, tau=.95, 
-		ppo_steps=20, ppo_epochs=10, mini_batch_size=5, 
+	def __init__(self, env, hidden_size=512, lr=1e-4, gamma=0.97, tau=.95, 
+		ppo_steps=2000, ppo_epochs=10, mini_batch_size=200, 
 		ppo_clip=0.2):
 		"""Initialize an Agent object.
 
